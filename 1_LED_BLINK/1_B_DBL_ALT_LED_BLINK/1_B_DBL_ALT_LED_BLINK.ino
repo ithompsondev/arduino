@@ -12,8 +12,8 @@ void setup() {
 void loop() {
   digitalWrite(D13, HIGH);   // Set digital output signal to HIGH/ON/1
   digitalWrite(D08, LOW);
-  delay(1000);               // wait for a second
+  delay(500);               // wait for a second
   digitalWrite(D13, LOW);    // Set digital output signal to LOW/OFF/0
   digitalWrite(D08, HIGH);
-  delay(1000);              // wait for a second
+  delay(100);              // wait for a second
 }
